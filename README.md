@@ -2,10 +2,6 @@
 
 This directory contains the dotfiles for my system.
 
-## Before starting❗
-
-Once the "stow ." command is ran, you may lose your configuration files, so please back them up (.tmux.conf -> .tmux.conf.bak, ...).
-
 ## Requirements
 
 Ensure you have the following installed on your system
@@ -16,11 +12,6 @@ Ensure you have the following installed on your system
 sudo apt install git
 ```
 
-### Stow
-
-```
-sudo apt install stow
-```
 ### Tmux
 
 ```
@@ -49,9 +40,4 @@ First, check out the dotfiles repo in your $HOME directory using git
 $ git clone git@github.com:klemen-s/dotfiles.git
 $ cd dotfiles
 ```
-
-then use GNU stow to create symlinks
-
-```
-$ stow .
-```
+then replace my files with yours.
