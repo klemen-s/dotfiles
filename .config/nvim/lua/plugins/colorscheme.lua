@@ -1,9 +1,9 @@
 return {
-	{ "slugbyte/lackluster.nvim" },
+	{ "rebelot/kanagawa.nvim" },
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "lackluster-hack",
+			colorscheme = "kanagawa-dragon",
 		},
 	},
 }
